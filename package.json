@@ -1,0 +1,28 @@
+{
+  "name": "jeu_stockholm",
+  "version": "1.0.0",
+  "description": "Jeu Stockholm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "esbuild app.tsx --bundle --servedir=www/ --outdir=www/js",
+    "build": "esbuild app.tsx --bundle --minify --outdir=www/js"    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sjguyot/jeu_stockholm.git"
+  },
+  "author": "Simon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sjguyot/jeu_stockholm/issues"
+  },
+  "homepage": "https://github.com/sjguyot/jeu_stockholm#readme",
+  "dependencies": {
+    "@types/react": "^18.2.18",
+    "@types/react-dom": "^18.2.7",
+    "esbuild": "^0.18.18",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
