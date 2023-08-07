@@ -11,7 +11,7 @@ function MonBoutton() {
         setCompteur(compteur -1)
     }
     function handleClick3(){
-        setCompteur(compteur = 0)
+        setCompteur(0)
     }
     return(
         <>
