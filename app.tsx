@@ -6,12 +6,7 @@ function sayEmoji() {
 }
     
 function App() {
-    return <div>
-        <h1>Bonjour</h1>
-        <button onClick={sayEmoji}>
-          😃
-        </button>
-    </div>
+    return <button onClick={sayEmoji}>😃</button>
 }
 
 ReactDOM.render(<App />, document.querySelector('#root'))
